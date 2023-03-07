@@ -681,143 +681,6 @@ video {
   width: 100%;
 }
 
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin {
-  animation: spin 1s linear infinite;
-}
-
-.animate-\[wiggle_1s_ease-in-out_infinite\] {
-  animation: wiggle 1s ease-in-out infinite;
-}
-
-.animate-\[wiggle_1s_ease-in-out_\] {
-  animation: wiggle 1s ease-in-out;
-}
-
-.animate-\[wiggle_1s_ease-in-out_3s\] {
-  animation: wiggle 1s ease-in-out 3s;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_1s_ease-in-out_3s\] {
-  animation: spin 1s ease-in-out 3s;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_1s_ease-in-out_\] {
-  animation: spin 1s ease-in-out;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_1s_ease-in-out_3\] {
-  animation: spin 1s ease-in-out 3;
-}
-
-.animate-\[wigle_1s_ease-in-out_3\] {
-  animation: wigle 1s ease-in-out 3;
-}
-
-.animate-\[wiggle_1s_ease-in-out_3\] {
-  animation: wiggle 1s ease-in-out 3;
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-\[ping_1s_ease-in-out_3\] {
-  animation: ping 1s ease-in-out 3;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_1s_ease-in-out_3\] {
-  animation: bounce 1s ease-in-out 3;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_1s_ease-in-out_2\] {
-  animation: bounce 1s ease-in-out 2;
-}
-
-.animate-\[pilse_1s_ease-in-out_3\] {
-  animation: pilse 1s ease-in-out 3;
-}
-
-@keyframes pulse {
-  50% {
-    opacity: .5;
-  }
-}
-
-.animate-\[pulse_1s_ease-in-out_3\] {
-  animation: pulse 1s ease-in-out 3;
-}
-
-.animate-\[_1s_ease-in-out_3\] {
-  animation: 1s ease-in-out 3;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_0\.5s_ease-in-out_3\] {
-  animation: bounce 0.5s ease-in-out 3;
-}
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -834,34 +697,6 @@ video {
   animation: bounce 0.5s ease-in-out 1;
 }
 
-.animate-\[_0\.5s_ease-in-out_1\] {
-  animation: 0.5s ease-in-out 1;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_0\.5s_ease-in-out_1\] {
-  animation: spin 0.5s ease-in-out 1;
-}
-
-.animate-\[sp\.5s_ease-in-out_1\] {
-  animation: sp.5s ease-in-out 1;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_2s_ease-in-out_1\] {
-  animation: spin 2s ease-in-out 1;
-}
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -874,70 +709,8 @@ video {
   }
 }
 
-.animate-\[bounce_3s_ease-in-out_1\] {
-  animation: bounce 3s ease-in-out 1;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_3s_ease-in-out_4\] {
-  animation: bounce 3s ease-in-out 4;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8,0,1,1);
-  }
-
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0,0,0.2,1);
-  }
-}
-
-.animate-\[bounce_3s_ease-in-out_3\] {
-  animation: bounce 3s ease-in-out 3;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_3s_ease-in-out_3\] {
-  animation: spin 3s ease-in-out 3;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_3s_ease-in-out_2\] {
-  animation: spin 3s ease-in-out 2;
-}
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-\[spin_1s_ease-in-out_2\] {
-  animation: spin 1s ease-in-out 2;
+.animate-\[bounce_1s_ease-in-out_2\] {
+  animation: bounce 1s ease-in-out 2;
 }
 
 @keyframes ping {
@@ -958,12 +731,49 @@ video {
   }
 }
 
+.animate-\[ping_1s_ease-in-out_3\] {
+  animation: ping 1s ease-in-out 3;
+}
+
+@keyframes ping {
+  75%, 100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
 .animate-\[ping_1s_ease_1s_ease-in-out_2\] {
   animation: ping 1s ease 1s ease-in-out 2;
 }
 
-.animate-\[p_1s_ease-in-out_2\] {
-  animation: p 1s ease-in-out 2;
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-\[pulse_1s_ease-in-out_3\] {
+  animation: pulse 1s ease-in-out 3;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-\[spin_1s_ease-in-out_2\] {
+  animation: spin 1s ease-in-out 2;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-\[spin_1s_ease-in-out_3\] {
+  animation: spin 1s ease-in-out 3;
 }
 
 @keyframes spin {
@@ -974,10 +784,6 @@ video {
 
 .animate-\[spin_1s_ease_1s_ease-in-out_2\] {
   animation: spin 1s ease 1s ease-in-out 2;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .flex-row {
@@ -1610,27 +1416,15 @@ template {
   display: none;
 }
 
-.hover\:scale-50:hover {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-100:hover {
-  --tw-scale-x: 1;
-  --tw-scale-y: 1;
+.hover\:scale-125:hover {
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-150:hover {
   --tw-scale-x: 1.5;
   --tw-scale-y: 1.5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.hover\:scale-125:hover {
-  --tw-scale-x: 1.25;
-  --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1650,11 +1444,11 @@ template {
   animation: bounce 1s infinite;
 }
 
-.hover\:cursor-pointer:hover {
-  cursor: pointer;
-}
-
 .hover\:cursor-default:hover {
   cursor: default;
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 

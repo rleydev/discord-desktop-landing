@@ -17,13 +17,13 @@
         <div class="flex justify-between flex-row bg-[#202225] h-5" >
             <img class="w-72px h-8px mt-1.5 ml-3 mb-1.5" src="../src/assets/_Discord_ Heading.png">
             <div class="flex flex-row justify-center w-auto gap-2 mt-1">
-                <div class="w-10px h-10px bg-none justify-center align-middle">
+                <div class="w-10px h-10px bg-none justify-center align-middle hover:scale-150 hover:cursor-pointer">
                     <img class="w-10px h-1px mt-1" src="../src/assets/Minimize.png">
                 </div>
-                <div class="w-10px h-10px bg-none" >
+                <div class="w-10px h-10px bg-none hover:scale-150 hover:cursor-pointer" >
                     <img src="../src/assets/Maximize.png">
                 </div>
-                <div class="w-10px h-10px bg-none">
+                <div class="w-10px h-10px bg-none hover:scale-150 hover:cursor-pointer">
                     <img  src="../src/assets/Close.png">
                 </div>
             </div>
@@ -36,20 +36,20 @@
             <div>
                 <img class="px-2" src="../src/assets/discord-but.png">
             </div>
-           <div id="side-image-1">
+           <div id="side-image-1" class="hover:cursor-pointer">
                 <div id="current-side" class="absolute w-0.5 h-12 bg-white top-15 left-0.5"></div>
                 <img id="side-image-1-img" class="px-2"  src="../src/assets/Server Icon.png">
            </div>
-           <div id="side-image-2">
+           <div id="side-image-2" class="hover:cursor-pointer">
                 <img id="side-image-2-img" class="px-2"  src="../src/assets/Server Icon1.png">
            </div>
-           <div id="side-image-3">
+           <div id="side-image-3" class="hover:cursor-pointer">
                 <img id="side-image-3-img" class="px-2"  src="../src/assets/Server.png">
            </div>
-           <div >
+           <div id="plus-side-img" class="hover:cursor-pointer">
                 <img class="px-2"  src="../src/assets/Add Server.png">
            </div>
-           <div >
+           <div id="c-side-img" class="hover:cursor-pointer">
                 <img class="px-2" src="../src/assets/Discovery.png">
            </div>
            
@@ -66,7 +66,7 @@
                             MAIN
                         </p>
                     </div>
-                    <div id="general-channel" class="flex flex-row mt-2 bg-[#393C43] rounded-lg py-1">
+                    <div id="general-channel" class="flex flex-row mt-2 bg-[#393C43] rounded-lg py-1 hover:cursor-pointer">
                         <img class="h-5 w-5 ml-2" src="../src/assets/svg.icon1.png">
                         <p id="g-text" class="text-white text-sm ml-2">general</p>
                         <img class="h-4 w-4 ml-14 self-center" src="../src/assets/svg.iconadd.png">
@@ -78,17 +78,17 @@
                             TOPICS
                         </p>
                     </div>
-                    <div id="duo-channel" class="flex flex-row mt-2 rounded-lg py-1">
+                    <div id="duo-channel" class="flex flex-row mt-2 rounded-lg py-1 hover:cursor-pointer">
                         <img class="h-5 w-5 ml-2" src="../src/assets/svg.icon1.png">
                         <p id="d-text" class="text-white/25 text-sm ml-2">duo mode</p>
                         <img class="h-4 w-4 ml-10 self-center" src="../src/assets/svg.iconadd.png">
                     </div>
-                    <div id="ranking-channel" class="flex flex-row mt-2 rounded-lg py-1">
+                    <div id="ranking-channel" class="flex flex-row mt-2 rounded-lg py-1 hover:cursor-pointer">
                         <img class="h-5 w-5 ml-2" src="../src/assets/svg.icon1.png">
                         <p id="r-text" class="text-white/25 text-sm ml-2">ranking mode</p>
                         <img class="h-4 w-4 ml-5 self-center" src="../src/assets/svg.iconadd.png">
                     </div>
-                    <div id="survival-channel" class="flex flex-row mt-2 rounded-lg py-1">
+                    <div id="survival-channel" class="flex flex-row mt-2 rounded-lg py-1 hover:cursor-pointer">
                         <img class="h-5 w-5 ml-2" src="../src/assets/svg.icon1.png">
                         <p id="s-text" class="text-white/25 text-sm ml-2">survival mode</p>
                         <img class="h-4 w-4 ml-5 self-center" src="../src/assets/svg.iconadd.png">
@@ -103,16 +103,16 @@
                     <div class="h-7 block">
 
                     </div>
-                    <div class="flex flex-row align-middle h-52px gap-3 py-1 bg-[#202225]">
-                        <img class="py-2" src="../src/assets/avatar.png">
-                        <div class="flex flex-col justify-center align-middle">
+                    <div id="personal-window" class="flex flex-row align-middle h-52px gap-3 py-1 bg-[#202225]">
+                        <img class="py-2 hover:scale-150 hover:cursor-pointer" src="../src/assets/avatar.png">
+                        <div class="flex flex-col justify-center align-middle hover:cursor-default">
                             <p class="text-sm text-white">Destroyer89</p>
                             <p class="text-sm text-white/25">#8790</p>
                         </div>
                         <div class="flex flex-row py-4 px-1 gap-1" >
-                            <img src="../src/assets/svg.iconm.png">
-                            <img src="../src/assets/svg.iconh.png">
-                            <img src="../src/assets/svg.icons.png">
+                            <img id="mic" class="hover:cursor-pointer hover:scale-150" src="../src/assets/svg.iconm.png">
+                            <img id="headphone" class="hover:cursor-pointer hover:scale-150" src="../src/assets/svg.iconh.png">
+                            <img id="set" class="hover:cursor-pointer hover:scale-150" src="../src/assets/svg.icons.png">
                         </div>
                     </div>
                 </div>
@@ -125,33 +125,33 @@
                     <p class="text-sm text-white">general</p>
                 </div>
                 <div class="flex flex-row justify-center align-middle py-3 gap-2">
-                    <img  src="../src/assets/svg.iconring.png">
-                    <img src="../src/assets/svg.iconpin.png">
-                    <img src="../src/assets/svg.iconpeop.png">
+                    <img class="hover:cursor-pointer hover:scale-150" id="ring" src="../src/assets/svg.iconring.png">
+                    <img class="hover:cursor-pointer hover:scale-150" id="pin" src="../src/assets/svg.iconpin.png">
+                    <img class="hover:cursor-pointer hover:scale-150" id="people" src="../src/assets/svg.iconpeop.png">
                 </div>
             </article>
             <article class="flex flex-col justify-start">
                 <div class="flex flex-col justify-start gap-10">
-                    <h3 class="text-purple-400 text-lg text-center p-7">
+                    <h3 class="text-purple-400 text-lg text-center p-7 hover:cursor-default">
                         WELCOME TO THE SERVER! =)
                     </h3>
                     <div class="flex flex-row gap-10 ml-40">
                         <img src="../src/assets/welc.png">
-                        <p class="text-white/50 text-sm">
+                        <p class="text-white/50 text-sm hover:cursor-default">
                             Any oprating system is prefered! So get ready for amazing play! <br>
                             iOS and Android community
                         </p>
                     </div>
                     <div class="flex flex-row gap-10 ml-40">
                         <img src="../src/assets/wel2.png">
-                        <p class="text-white/50 text-sm">
+                        <p class="text-white/50 text-sm hover:cursor-default">
                             We play many games which includes varius genres! <br>
                             Find your favourite one and get started to explore teams in the <a class="hover:cursor-pointer text-purple-200" href="#">here</a>!
                         </p>
                     </div>
                     <div class="flex flex-row  gap-10 ml-40">
                         <img src="../src/assets/wel3.png">
-                        <p class="text-white/50 text-sm">
+                        <p class="text-white/50 text-sm hover:cursor-default">
                             Enjoy fully free gaming services with us online! <br>
                             Play with your friends and go participate in "House contest"!
                         </p>
@@ -161,13 +161,13 @@
                     <img class="pb-4 p-4" src="../src/assets/Profile Picture.png" alt="">
                     <div class="flex flex-col">
                         <div class="flex flex-row text-sm gap-2">
-                            <p class="text-purple-400">AMBER</p>
-                            <p class="text-white/25">05/01/2023</p>
+                            <p class="text-purple-400 hover:cursor-default">AMBER</p>
+                            <p class="text-white/25 hover:cursor-default">05/01/2023</p>
                         </div>
-                        <p class="mt-1 text-sm text-white font-bold">
+                        <p class="mt-1 text-sm text-white font-bold hover:cursor-default">
                             Welcome to the BestTeam Server!
                         </p>
-                        <p class='mt-1 text-sm text-white' >
+                        <p class='mt-1 text-sm text-white hover:cursor-default' >
                             Hope we will have a great time!
                         </p>
                     </div>
@@ -175,14 +175,14 @@
             </article>
             <article class="ml-3 mt-3">
                 <div class="flex flex-row w-full mt-9">
-                    <div>
+                    <div id="plus-chat" class="hover:cursor-pointer hover:scale-150">
                         <img src="../src/assets/plus.png">
                     </div>
                     <div class="flex flex-row gap-3 justify-center w-full">
                         <input type="text" placeholder="Message #general" class="w-4/5 rounded-l p-1 bg-white/25">
-                        <img src="../src/assets/pr.png">
-                        <img src="../src/assets/gif.png">
-                        <img class="p-1" src="../src/assets/smile.png" alt="">
+                        <img id="gift-chat" class="hover:cursor-pointer hover:scale-150" src="../src/assets/pr.png">
+                        <img id="gif-chat" class="hover:cursor-pointer hover:scale-150" src="../src/assets/gif.png">
+                        <img id="smile-chat" class="hover:cursor-pointer hover:scale-150" class="p-1" src="../src/assets/smile.png" alt="">
                     </div>
                 </div>
             </article>
@@ -191,53 +191,53 @@
             <article>
                 <div class="flex flex-row gap-2 p-3">
                     <input type="text" placeholder="Search" class="p-1 rounded-md bg-[#37393F]">
-                    <img src="../src/assets/m.png">
-                    <img src="../src/assets/sup.png">
+                    <img id="mention" class="hover:cursor-pointer hover:scale-150" src="../src/assets/m.png">
+                    <img id="support" class="hover:cursor-pointer hover:scale-150" src="../src/assets/sup.png">
                 </div>
             </article>
             <article>
                 <div class="flex flex-col ml-3 mr-1 gap-2">
                     <div class="">
-                        <p class="text-sm text-white/25">BOT</p>
+                        <p class="text-sm text-white/25  hover:cursor-default">BOT</p>
                     </div>
-                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3">
+                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3  hover:cursor-pointer hover:scale-125 hover:animate-bounce">
                         <img class="p-1" src="../src/assets/rim.png">
                         <div class="flex flex-col justify-between">
-                            <p class="text-sm font-bold text-green-400">Phili</p>
-                            <p class="text-sm text-white/25">Playing <strong>GTA 5</strong></p>
+                            <p class="text-sm font-bold text-green-400 hover:cursor-default">Phili</p>
+                            <p class="text-sm text-white/25 hover:cursor-default">Playing <strong>GTA 5</strong></p>
                         </div>
                     </div>
-                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3">
+                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3 hover:cursor-pointer hover:scale-125 hover:animate-bounce">
                         <img class="p-1" src="../src/assets/bot2.png">
                         <div class="flex flex-col justify-between">
-                            <p class="text-sm font-bold text-red-500">Nelly</p>
-                            <p class="text-sm text-white/25">Listen to <strong>Spotify</strong></p>
+                            <p class="text-sm font-bold text-red-500  hover:cursor-default">Nelly</p>
+                            <p class="text-sm text-white/25  hover:cursor-default">Listen to <strong>Spotify</strong></p>
                         </div>
                     </div>
                 </div>
                 <div class="flex flex-col ml-3 mr-1 mt-2 gap-2">
                     <div class="">
-                        <p class="text-sm text-white/25">MEMBERS</p>
+                        <p class="text-sm text-white/25  hover:cursor-default">MEMBERS</p>
                     </div>
-                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3">
+                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3 hover:cursor-pointer hover:scale-125 hover:animate-bounce">
                         <img class="p-1" src="../src/assets/mem1.png">
                         <div class="flex flex-col justify-between">
-                            <p class="text-sm font-bold text-green-400">Clyde</p>
-                            <p class="text-sm text-white/25">Playing <strong>DOTA 2</strong></p>
+                            <p class="text-sm font-bold text-green-400  hover:cursor-default">Clyde</p>
+                            <p class="text-sm text-white/25  hover:cursor-default">Playing <strong>DOTA 2</strong></p>
                         </div>
                     </div>
-                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3">
+                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3 hover:cursor-pointer hover:scale-125 hover:animate-bounce">
                         <img class="p-1" src="../src/assets/mem2.png">
                         <div class="flex flex-col justify-between">
-                            <p class="text-sm font-bold text-red-500">Locke</p>
-                            <p class="text-sm text-white/25">Streaming <strong>Minecraft</strong></p>
+                            <p class="text-sm font-bold text-red-500  hover:cursor-default">Locke</p>
+                            <p class="text-sm text-white/25  hover:cursor-default">Streaming <strong>Minecraft</strong></p>
                         </div>
                     </div>
-                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3">
+                    <div class="bg-black/25 flex flex-column justify-start gap-2 rounded-lg p-3 hover:cursor-pointer hover:scale-125 hover:animate-bounce">
                         <img class="p-1" src="../src/assets/mem3.png">
                         <div class="flex flex-col justify-between">
-                            <p class="text-sm font-bold text-white">Wumpus</p>
-                            <p class="text-sm text-white/25">Playing <strong>Pockemon GO</strong></p>
+                            <p class="text-sm font-bold text-white  hover:cursor-default">Wumpus</p>
+                            <p class="text-sm text-white/25  hover:cursor-default">Playing <strong>Pockemon GO</strong></p>
                         </div>
                     </div>
                 </div>

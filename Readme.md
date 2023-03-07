@@ -10,3 +10,5 @@
 - FIxed Desktop landing 782px/1300px
 - HTML, CSS
 - Tailwind CSS
+- Animations
+- Interactive Elements
